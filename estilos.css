@@ -112,11 +112,11 @@ body {
   gap: var(--gap-s);
  
   @media (max-width: 768px) {
-    & > a .btn__primario {
+    & > a.btn__primario {
       text-align: center;
     }
     
-    & > a .btn__secundario {
+    & > a.btn__secundario {
       display: none;
     }
   }
