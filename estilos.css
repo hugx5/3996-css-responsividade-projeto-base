@@ -102,25 +102,29 @@ body {
 }
 
 .cabecalho__item:nth-child(6) {
+  display: none;
+  
   @media(max-width: 768px){
-    display: inline;
+  display: inline;
   }
 }
 
-.cabecalho__botoes > a {
+.cabecalho__botoes {
   display: flex;
   gap: var(--gap-s);
- 
+
   @media (max-width: 768px) {
     & > a.btn__primario {
       text-align: center;
     }
-    
+
     & > a.btn__secundario {
       display: none;
     }
   }
 }
+
+
 
 .cabecalho__botoes > a {
   font-size: var(--fonte-size-s);
